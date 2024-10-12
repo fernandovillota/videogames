@@ -7,6 +7,12 @@ from random import randint
 dice1 = randint(1,6)
 dice2 = randint(1,6)
 
+def main_menu():
+    print("::MAIN MENU::")
+    print("[1]. Start the game")
+    print("[2]. About us")
+    print("[3]. Exit")
+    
 
 
 print (f"Dice1: {dice1} ")
