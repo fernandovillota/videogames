@@ -40,6 +40,7 @@ while status_menu:
         print ("[4] expert")
         opt = int (input("Press any option: "))
         
+        
         if opt == 1:
             pos = 20
         elif opt == 2:
