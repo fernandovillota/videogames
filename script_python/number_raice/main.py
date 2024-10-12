@@ -12,6 +12,7 @@ def main_menu():
     print("[1]. Start the game")
     print("[2]. About us")
     print("[3]. Exit")
+    opt =int(input("Press any option: "))
     
 
 
