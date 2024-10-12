@@ -13,17 +13,23 @@ def main_menu():
     print("[2]. About us")
     print("[3]. Exit")
     opt =int(input("Press any option: "))
-    
-   
-
-    
+        
 
 while status_game:
+    os.system('clear')
     main_menu() 
     op = main_menu() 
     if op == 1:
         print ("Game under construction")
-        key = ("Press any key to go to the main menu...")
+        key = input("Press any key to go to the main menu...")
+    elif op == 2:
+        print ("Help under construction")
+        key = input("Press any key to go to the main menu...")    
+    else:
+        print ("See 'u later")
+        key = input("Press any key to exit")    
+        break
+        
           
        
        
